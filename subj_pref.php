@@ -130,12 +130,33 @@
                 <div class="col-sm-12">
                     <div class="white-box">
                         <div class="row">
-                            <div class="table-responsive col-md-2">
+                            <div class="col-md-2">
+                                <label class="control-label">Select Faculty:</label>
+                                <select class="form-control">
+                                    <option>--Faculty Member-</option>
+                                    <option>Aldrin, Lily</option>
+                                    <option>Eriksen, Marshall</option>
+                                    <option>McConell, Tracy</option>
+                                    <option>Mosby, Theodore</option>
+                                    <option>Scherbatsky, Robin</option>
+                                    <option>Stinson, Barney</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-2" style="margin-top: 25px;">
+                                <button type="button" class="btn btn-info">Add Subject Preference</button>
+                            </div>
+
+                        </div>
+                        <br>
+                        <br>
+                        <div class="row">
+                            <div class="table-responsive col-md-3">
                                 <caption>Course Specialization</caption>
-                                <table id="c_specialization" class="table color-table inverse-table">
+                                <table id="c_specialization" class="table color-table inverse-table table-striped">
                                     <thead>
                                         <tr>
-                                            <th style="text-align: center;">Courses</th>
+                                            <th>Courses</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -155,13 +176,13 @@
                                 </table>
                             </div>
 
-                            <div class="table-responsive col-md-4">
+                            <div class="table-responsive col-md-6">
                                 <caption>Preferred Teaching Time</caption>
-                                <table id="c_specialization" class="table color-table inverse-table">
+                                <table id="c_specialization" class="table color-table inverse-table table-striped">
                                     <thead>
                                         <tr>
-                                            <th style="text-align: center;">Day</th>
-                                            <th style="text-align: center;">Time</th>
+                                            <th>Day</th>
+                                            <th>Time</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -204,6 +225,31 @@
                                         <tr>
                                             <td>Saturday</td>
                                             <td>Afternoon (12:00NN to 6:00PM)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="table-responsive col-md-3">
+                                <caption>Course Specialization</caption>
+                                <table id="c_specialization" class="table color-table inverse-table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Courses</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Programming - C</td>
+                                        </tr>
+                                         <tr>
+                                            <td>Programming - JAVA</td>
+                                        </tr>
+                                         <tr>
+                                            <td>Programming - COBOL</td>
+                                        </tr>
+                                         <tr>
+                                            <td>Programming - PHP</td>
                                         </tr>
                                     </tbody>
                                 </table>

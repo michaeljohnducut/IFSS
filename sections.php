@@ -143,7 +143,7 @@
                         <div class="row" style="margin-left: 20px; margin-top: 5px;">
                             <div class="col-md-2">
                                 <button class="btn btn-success"><span class="fa fa-pencil"></span></button>&nbsp;
-                                <label style="margin-top: 5px;">Edit Schedule</label>
+                                <label style="margin-top: 5px;">Edit Section</label>
                             </div>
                             <div class="col-md-2">
                                 <button class="btn btn-danger"><span class="fa fa-trash-o"></span></button>&nbsp;
@@ -416,10 +416,13 @@
     </table>
                         </div>
                     </div>
+
                     <br>
-                    <div class="col-md-4">
+                   <div class="row">
+                        <div class="col-md-4">
                                     <button type="button" class="btn btn-success">Edit This Schedule</button>
                     </div>
+                   </div>
                 
 
                 </div>
