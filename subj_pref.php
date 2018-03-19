@@ -129,6 +129,19 @@
             <div class="row">      
                 <div class="col-sm-12">
                     <div class="white-box">
+                        <br>
+                        <br>
+                        
+                        <div class="row">
+                            <h2>Subject Preference Form/Intent to Teach</h2>
+                            <div  class="col-md-12" style="background-color: gray; height: 3px; margin-top: -5px;">
+
+                            </div>
+                            <br>
+                            <br>
+
+
+                        </div>
                         <div class="row">
                             <div class="col-md-2">
                                 <label class="control-label">Select Faculty:</label>
@@ -142,15 +155,491 @@
                                     <option>Stinson, Barney</option>
                                 </select>
                             </div>
-
-                            <div class="col-md-2" style="margin-top: 25px;">
-                                <button type="button" class="btn btn-info">Add Subject Preference</button>
+                            <div class="col-md-3">
+                                <label class="control-label">Email:</label>
+                                <input type="text" class="form-control" readonly>
                             </div>
-
                         </div>
                         <br>
+                        <h3>Course Specialization</h3><br>
+                        <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Programming - C</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Programming - Java</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subj">
+                                <label>Programming - COBOL</label>
+                            </div>
+                        </div>
+
+                         <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Programming - C#.Net</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Programming - Python</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subj">
+                                <label>Programming - VB.Net</label>
+                            </div>
+                        </div>
+
+                         <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Programming - PHP</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Programming - ASP.Net</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subj">
+                                <label>Databases</label>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Data Structures and Algorithms</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Project Management</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subj">
+                                <label>Software Engineering</label>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Analysis and Design of Info. Systems</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Networking</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subj">
+                                <label>Computer Architecture</label>
+                            </div>
+                        </div>
+
+                         <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Electronics</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Intelligent Systems</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subj">
+                                <label>Robotics/Mechatronics</label>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>E-commerce/E-business</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Management Information Systems</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subj">
+                                <label>Multimedia</label>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Operating Systems</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Web Development</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subj">
+                                <label>Automata and Theory of Computation</label>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Programming Languages</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="checkbox" name="subj">
+                                <label>Modeling</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subj">
+                                <label>Technical Writing</label>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div  class="col-md-12" style="background-color: gray; height: 3px; margin-top: -5px;">
+                        </div>
+
+                        <div class="row">
+                            <h2>Preferred Teaching Time</h2>
+                        </div>
+
+                        <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-4">
+                                <div class="col-md-12">
+                                    <h3 style="color: red;">Monday</h3>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Morning (7:30AM to 12:00NN)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Afternoon (12:00NN to 6:00PM)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Night (6:00PM to 9:00PM)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Other: </label>
+                                    <input type="text" name="">
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="col-md-12">
+                                    <h3 style="color: red;">Tuesday</h3>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Morning (7:30AM to 12:00NN)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Afternoon (12:00NN to 6:00PM)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Night (6:00PM to 9:00PM)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Other: </label>
+                                    <input type="text" name="">
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="col-md-12">
+                                    <h3 style="color: red;">Wednesday</h3>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Morning (7:30AM to 12:00NN)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Afternoon (12:00NN to 6:00PM)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Night (6:00PM to 9:00PM)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Other: </label>
+                                    <input type="text" name="">
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <br>
+
+                        <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-4">
+                                <div class="col-md-12">
+                                    <h3 style="color: red;">Thursday</h3>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Morning (7:30AM to 12:00NN)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Afternoon (12:00NN to 6:00PM)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Night (6:00PM to 9:00PM)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Other: </label>
+                                    <input type="text" name="">
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="col-md-12">
+                                    <h3 style="color: red;">Friday</h3>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Morning (7:30AM to 12:00NN)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Afternoon (12:00NN to 6:00PM)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Night (6:00PM to 9:00PM)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Other: </label>
+                                    <input type="text" name="">
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="col-md-12">
+                                    <h3 style="color: red;">Saturday</h3>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Morning (7:30AM to 12:00NN)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Afternoon (12:00NN to 6:00PM)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="subj">
+                                    <label>Night (6:00PM to 9:00PM)</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Other: </label>
+                                    <input type="text" name="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <br><br>
+                        <div  class="col-md-12" style="background-color: gray; height: 3px; margin-top: -5px;">
+                        </div>
+                        <h3 style="color: red;">BS in Information Technology</h3>
+                        <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>INTE 2013 - Hardware/Software Installation and Maintenance (CISCO IT Essentials)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COMP 2033 - Programming 2 (Advanced C Language)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>INTE 2023 - Integrated Applicaiton Software (Photoshop CS5 and Basic Photography)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>INTE 3023 - Database Management System 1</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COMP 3013 - Operating Systems</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COMP 4033 - Network Administration (CCNA Exploration 2)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COMP 3083 - Data and File Structures</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COMP 3033 - Software Engineering</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COMP 3043 - Web Development (HTML/CSS/Scripting and PHP)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>INTE 3043 - Systems Analysis and Design</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 1) INTE 4143 - Mobile and Network Applications</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 1) COMP 4193 - Switching & Wireless Networks Configuration (CCNA Exploration 3)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>INTE 4019 - Internship (9hrs / 9units)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>NONE</label>
+                            </div>
+                            
+                        </div>
+
+                        <br><br>
+                        <div  class="col-md-12" style="background-color: gray; height: 3px; margin-top: -5px;">
+                        </div>
+                        <h3 style="color: red;">BS in Computer Science</h3>
+                        <div class="row" style="margin-left: 20px;">
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COSC 3073 - Fundamentals of Database Systems</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COSC 3083 - Automata and Language Theory</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COSC 3053 - Principles of Programming Languages</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COMP 2083 - Technical Documentation and Presentation Skills in IT</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COMP 3033 - Software Engineering</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COSC 3103 - Special Project in CS (Technology Innovation)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COMP 3023 - Data Communication and Networking (CCNA Network Fundamentals)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COSC 3133 - Modeling and Simulation</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 1 - CNE Track) COMP 4183 - Router Configuration (CCNA Exploration 2)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 2 - CNE Track) COMP 4193 - Switching & Wireless Networks Configuration (CCNA Exploration 3)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 1 - CSR Track) COSC 4093 - Natural Language Processing</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 2 - CSR Track) COSC 4263 - Computational Intelligence</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 1 - ISD Track) COMP 4023 - Database Administration</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 2 - ISD Track) COMP 3063 - COBOL</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 1 - CGV Track) COSC 4253 - Principles of Game Design</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 2 - CGV Track) INTE 3013 - Multimedia</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COMP 2063 - Professional Ethics</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COMP 4173 - Thesis Writing</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>COSC 3113 - Advanced Topics in CS (Seminars)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 4 - CNE Track) COMP 4113 - Security: Issues and Principles</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 4 - CSR Track) COSC 4293 - Machine Translation</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 4 - ISD Track) INTE 4083 - Advanced Computing Techniques</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>(ELEC 4 - CGV Track) COMP 4093 - Platform Technologies</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="checkbox" name="subj">
+                                <label>NONE</label>
+                            </div>
+                        </div>
+
+                        <br><br>
+                        <div  class="col-md-12" style="background-color: gray; height: 3px; margin-top: -5px;">
+                        </div>
+                        <h3 style="color: red;">Remarks/Notes</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <textarea class="form-control" rows="5"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                               <h5 style="color: red;"><em>I understand that my application for subject preference does not guarantee that I will be given teaching assignments for courses and schedules stated above and that preference for the assignment of load shall follow University policies.</em></h5>
+                                <input type="checkbox" name="subj">
+                                <label>I agree</label>
+                            </div>
+                        </div>
                         <br>
                         <div class="row">
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-info">Submit</button>
+                            </div>
+                        </div>
+            
+                        <!-- <div class="row">
                             <div class="table-responsive col-md-3">
                                 <caption>Course Specialization</caption>
                                 <table id="c_specialization" class="table color-table inverse-table table-striped">
@@ -254,7 +743,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
+                        </div>  -->
                     </div>
                 </div>
               
