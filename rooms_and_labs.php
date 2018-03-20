@@ -91,7 +91,7 @@
                         <ul class="nav nav-second-level">
                             <li><a href="new_sched.php">Create New</a></li>
                             <li><a href="update_shed.php">Update Existing</a></li>
-                            <li><a href="my_sched.php">My Schedule</a></li>
+                            <li><a href="view_schedules.php">View Schedules</a></li>
                         </ul>
                     </li>
                      <li><a href="rooms_and_labs.php" class="waves-effect active"><i data-icon=")" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">Rooms and Labs<span class="fa arrow"></span></span></a>

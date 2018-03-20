@@ -91,7 +91,7 @@
                         <ul class="nav nav-second-level">
                             <li><a href="new_sched.php">Create New</a></li>
                             <li><a href="update_shed.php">Update Existing</a></li>
-                            <li><a href="my_sched.php">My Schedule</a></li>
+                            <li><a href="view_schedules.php">View Schedules</a></li>
                         </ul>
                     </li>
                      <li><a href="rooms_and_labs.php" class="waves-effect"><i data-icon=")" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">Rooms and Labs<span class="fa arrow"></span></span></a>
@@ -134,7 +134,7 @@
                         
                         <div class="row">
                             <div class="col-md-9">
-                                <h2>Plotting Form</h2>
+                                <h2>Plotting Form (CREATION)</h2>
                             </div>
                             <div class="col-md-3">
                                 <button style="margin-top: 10px; margin-left: 90px;" type="button" class="btn btn-success" disabled="">AUTO GENERATE SCHEDULE</button>

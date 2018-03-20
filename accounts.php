@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/plugins/images/fss_icon.png">
-    <title>CCIS | OFSS</title>
+    <title>IFSS | Manage Accounts</title>
     <!-- Bootstrap Core CSS -->
     <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css" rel="stylesheet">
@@ -108,7 +108,7 @@
                         <ul class="nav nav-second-level">
                             <li><a href="new_sched.php">Create New</a></li>
                             <li><a href="update_shed.php">Update Existing</a></li>
-                            <li><a href="my_sched.php">My Schedule</a></li>
+                            <li><a href="view_schedules.php">View Schedules</a></li>
                         </ul>
                     </li>
                      <li><a href="rooms_and_labs.php" class="waves-effect"><i data-icon=")" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">Rooms and Labs<span class="fa arrow"></span></span></a>
