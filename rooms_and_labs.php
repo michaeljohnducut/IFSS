@@ -157,8 +157,8 @@
                             <br>
                             <br>
 
-                        <div class="table-responsive">
-                     <table id="myTable" class="table table-striped">
+                    <div class="table-responsive">
+                    <table id="myTable" class="table table-striped">
                         <thead>
                                     <tr>
                                         <th>Room ID</th>
@@ -334,7 +334,7 @@
                                     <div class="col-md-12">
                                         <button type="button" class="btn btn-info" data-toggle = "modal" data-target ="#modalNewAccount" style="margin-top: 10px;">Add Room</button>
                                     </div>
-                                </div>
+                            </div>
 
                             <div>
                                 <div class="col-md-8">
@@ -380,7 +380,7 @@
                         </div>
                     </div>
                     <br>
-                    <div class="col-md-4">
+                    <div class="row">
                                     <button type="button" class="btn btn-success">Edit This Schedule</button>
                     </div>
                 
