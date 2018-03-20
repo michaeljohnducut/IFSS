@@ -133,7 +133,12 @@
                         <br>
                         
                         <div class="row">
-                            <h2>Plotting Form</h2>
+                            <div class="col-md-9">
+                                <h2>Plotting Form</h2>
+                            </div>
+                            <div class="col-md-3">
+                                <button style="margin-top: 10px; margin-left: 90px;" type="button" class="btn btn-success" disabled="">AUTO GENERATE SCHEDULE</button>
+                            </div>
                             <div  class="col-md-12" style="background-color: gray; height: 3px; margin-top: -5px;">
 
                             </div>
@@ -161,17 +166,55 @@
                             <div class="col-md-3">
                                 <label class="control-label">Select Faculty:</label>
                                 <select class="form-control">
-                                    <option>--Faculty Member-</option>
+                                    <option>--Faculty Member--</option>
                                     <option>Aldrin, Lily</option>
                                     <option>Eriksen, Marshall</option>
                                     <option>McConell, Tracy</option>
-                                    <option>Mosby, Theodore</option>
+                                    <option selected="">Mosby, Theodore</option>
                                     <option>Scherbatsky, Robin</option>
                                     <option>Stinson, Barney</option>
                                 </select>
                             </div>
                             <div class="col-md-3">
-                                <button style="margin-top: 25px;" type="button" class="btn btn-info">GENERATE SCHEDULE</button>
+                                <label class="control-label">Select Subject:</label>
+                                <select class="form-control">
+                                    <option>--Subjects--</option>
+                                    <option>INTE 3023 - Database Management System 1</option>
+                                    <option>INTE 3043 - Systems Analysis and Design</option>
+                                    <option>COMP 3013 - Operating Systems</option>
+                                    <option>COMP 3083 - Data and File Structures</option>
+                                    <option>INTE 2023 - Integrated Applicaiton Software (Photoshop CS5 and Basic Photography)</option>
+
+                                </select>    
+                            </div>
+                            <div class="col-md-2">
+                                <label class="control-label">Select Section:</label>
+                                <select class="form-control">
+                                    <option>--Section--</option>
+                                    <option>1</option>
+                                    <option>1N</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>    
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-2" style="text-align: right; color: red;">
+                                <p>Allowed units:</p>
+                            </div>
+                            <div class="col-md-2" style="text-align: right;">
+                                <p>Regular Load: 15</p>
+                            </div>
+                            <div class="col-md-2" style="text-align: right;">
+                                <p>Part-time Load: 12</p>
+                            </div>
+                            <div class="col-md-3" style="text-align: right;">
+                                <p>Temporary Substitution: 0</p>
+                            </div>
+                            <div class="col-md-2" style="text-align: right;">
+                                <p>Total Units Used: 0</p>
                             </div>
                         </div>
 
@@ -216,7 +259,16 @@
 <tr><td width='12.5%' style='border:1px #000000 solid;height:30px;text-align:center;font-family:tahoma;font-size:11px;' rowspan='1'><button type="button" class="btn btn-info" style="width:150px;">9:30PM</button></td><td width='12.5%' style='border:1px #000000 solid;height:30px;text-align:center;font-family:tahoma;font-size:11px;' rowspan='1'><button type="button" class="btn btn-info" style="width:150px;">9:30PM</button></td><td width='12.5%' style='border:1px #000000 solid;height:30px;text-align:center;font-family:tahoma;font-size:11px;' rowspan='1'><button type="button" class="btn btn-info" style="width:150px;">9:30PM</button></td><td width='12.5%' style='border:1px #000000 solid;height:30px;text-align:center;font-family:tahoma;font-size:11px;' rowspan='1'><button type="button" class="btn btn-info" style="width:150px;">9:30PM</button></td><td width='12.5%' style='border:1px #000000 solid;height:30px;text-align:center;font-family:tahoma;font-size:11px;' rowspan='1'><button type="button" class="btn btn-info" style="width:150px;">9:30PM</button></td><td width='12.5%' style='border:1px #000000 solid;height:30px;text-align:center;font-family:tahoma;font-size:11px;' rowspan='1'><button type="button" class="btn btn-warning" style="width:150px;" disabled="">9:30PM</button></td><td width='12.5%' style='border:1px #000000 solid;height:30px;text-align:center;font-family:tahoma;font-size:11px;' rowspan='1'><button type="button" class="btn btn-info" style="width:150px;">9:30PM</button></td></table>            </td>
             </tr>
     </table>
-                            
+</div>
+
+                <br>
+                <h3 style="color: red;">Conflict Results:</h3>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <textarea class="form-control" rows="5"></textarea>
+                            </div>
+                        </div>
+                   
                         </div>
             
                     </div>
@@ -227,6 +279,8 @@
             </div>
              <!-- /.right-sidebar -->
             </div>
+
+           
             <!-- /.container-fluid -->
             <footer class="footer text-center"> 2018 &copy; Faculty Scheduling System</footer>
         </div>
