@@ -170,15 +170,26 @@
                                 <table id="myTable" class="table colored-table inverse-tabl table-striped">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
-                                            <th>Salary</th>
+                                            <th>Course Code</th>
+                                            <th>Course Title</th>
+                                            <th>Requisite/Prerequisite</th>
+                                            <th>Credits</th>
+                                            <th>Lecture Hours</th>
+                                            <th>Lab Hours</th>
+                                            <th>Year Level</th>
+                                            <th>Semester</th>
                                         </tr>
                                     </thead>
                                 </table>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <button type="button" class="btn btn-info">Add Subject</button>
+                                    <button type="button" class="btn btn-success">Update Curriculum</button>
+                                    
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
