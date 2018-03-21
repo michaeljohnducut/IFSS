@@ -14,6 +14,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css" rel="stylesheet">
+    <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css" rel="stylesheet">
     <link href="assets/plugins/bower_components/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/cdn.datatables.net/buttons/1.2.2/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
     <!-- Menu CSS -->
@@ -24,6 +26,13 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- color CSS -->
     <link href="assets/css/colors/blue.css" id="theme" rel="stylesheet">
+     <link href="assets/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/bower_components/custom-select/custom-select.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/bower_components/switchery/dist/switchery.min.css" rel="stylesheet" />
+    <link href="assets/plugins/bower_components/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" />
+    <link href="assets/plugins/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet" />
+    <link href="assets/plugins/bower_components/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
+    <link href="assets/plugins/bower_components/multiselect/css/multi-select.css" rel="stylesheet" type="text/css" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -31,6 +40,7 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
     <script src="assets/www.w3schools.com/lib/w3data.js"></script>
+
 </head>
 
 <body>
@@ -128,8 +138,13 @@
             <div class="row">
                     <div class="col-sm-12">
                         <div class="white-box">
-                            <div class="panel-heading" style="background-color: gray; color:white;">
+                            <!-- <div class="panel-heading" style="background-color: gray; color:white;">
                                 Filter Curriculum Details
+
+                            </div> -->
+                             <h2>Filter Curriculum Details</h2>
+                             <div  class="col-md-12" style="background-color: gray; height: 3px; margin-top: -5px;">
+
                             </div>
                             <br>
                             <div class="row">
@@ -181,12 +196,162 @@
                                         </tr>
                                     </thead>
                                 </table>
+
+                            </div>
+
+                            <div class="modal fade bs-example-modal-lg" id="modalNewSubject" tabindex="-1" role="dialog" aria-labelledby="modalNewAccount" aria-hidden="true" style="display: none;">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            <h4 class="modal-title">Add a new subject</h4>
+                                        </div>
+                                        <div  class="col-md-12" style="background-color: gray; height: 3px; margin-top: -5px;">
+
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-group col-md-6">
+                                                    <label class="control-label">Course Code:</label>
+                                                    <input class="form-control" type="text" name="fac_id" id="fac_id">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                    <label class="control-label">Course Title:</label>
+                                                    <input class="form-control" type="text" name="fac_sname" id="fac_sname" required>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                    <label class="control-label">Credits:</label>
+                                                    <input class="form-control" type="text" name="fac_fname" id="fac_fname" required>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                    <label class="control-label">Lecture Hours:</label>
+                                                    <input class="form-control" type="text" name="fac_mname" id="fac_mname">
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                    <label class="control-label">Lab Hours:</label>
+                                                    <input class="form-control" type="text" name="fac_email" id="fac_email" required>
+                                            </div>
+                                            <div class="form-group col-md-3">
+                                                    <label class="control-label">Year Level:</label>
+                                                    <select class="form-control">
+                                                        <option>--YEAR LEVEL--</option>
+                                                        <option>1st</option>
+                                                        <option>2nd</option>
+                                                        <option>3rd</option>
+                                                        <option>4th</option>
+                                                    </select>
+                                            </div>
+                                            <div class="form-group col-md-3">
+                                                    <label class="control-label">Year Level:</label>
+                                                    <select class="form-control">
+                                                        <option>--SEMESTER--</option>
+                                                        <option>1st Semester</option>
+                                                        <option>2nd Semester</option>
+                                                        <option>Summer</option>
+                                                    </select>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                    <label class="control-label">Requisites/Prerequisites</label>
+                                                    <select class="form-control">
+                                                       <option>Sample</option>
+                                                       <option>Sample</option>
+                                                       <option>Sample</option>
+                                                       <option>Sample</option>
+                                                    </select>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                    <label class="control-label">Selected:</label>
+                                                    <input type="text" class="form-control">
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-success waves-effect text-left">Add Subject</button>
+                                        </div>
+                                    </div>
+                                    <!-- /.modal-content -->
+                                </div>
+                                <!-- /.modal-dialog -->
+                            </div>
+                            <div class="modal fade bs-example-modal-lg" id="modalUpdateCurriculum" tabindex="-1" role="dialog" aria-labelledby="modalNewAccount" aria-hidden="true" style="display: none;">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            <h4 class="modal-title">Manage curriculum</h4>
+                                        </div>
+                                        <div  class="col-md-12" style="background-color: gray; height: 3px; margin-top: -5px;">
+
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-group col-md-6">
+                                                    <label class="control-label">Course Code:</label>
+                                                    <input class="form-control" type="text" name="fac_id" id="fac_id">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                    <label class="control-label">Course Title:</label>
+                                                    <input class="form-control" type="text" name="fac_sname" id="fac_sname" required>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                    <label class="control-label">Credits:</label>
+                                                    <input class="form-control" type="text" name="fac_fname" id="fac_fname" required>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                    <label class="control-label">Lecture Hours:</label>
+                                                    <input class="form-control" type="text" name="fac_mname" id="fac_mname">
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                    <label class="control-label">Lab Hours:</label>
+                                                    <input class="form-control" type="text" name="fac_email" id="fac_email" required>
+                                            </div>
+                                            <div class="form-group col-md-3">
+                                                    <label class="control-label">Year Level:</label>
+                                                    <select class="form-control">
+                                                        <option>--YEAR LEVEL--</option>
+                                                        <option>1st</option>
+                                                        <option>2nd</option>
+                                                        <option>3rd</option>
+                                                        <option>4th</option>
+                                                    </select>
+                                            </div>
+                                            <div class="form-group col-md-3">
+                                                    <label class="control-label">Year Level:</label>
+                                                    <select class="form-control">
+                                                        <option>--SEMESTER--</option>
+                                                        <option>1st Semester</option>
+                                                        <option>2nd Semester</option>
+                                                        <option>Summer</option>
+                                                    </select>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                    <label class="control-label">Requisites/Prerequisites</label>
+                                                    <select class="form-control">
+                                                       <option>Sample</option>
+                                                       <option>Sample</option>
+                                                       <option>Sample</option>
+                                                       <option>Sample</option>
+                                                    </select>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                    <label class="control-label">Selected:</label>
+                                                    <input type="text" class="form-control">
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-success waves-effect text-left">Update Curriculum</button>
+                                        </div>
+                                    </div>
+                                    <!-- /.modal-content -->
+                                </div>
+                                <!-- /.modal-dialog -->
                             </div>
 
                             <div class="row">
                                 <div class="col-md-3">
-                                    <button type="button" class="btn btn-info">Add Subject</button>
-                                    <button type="button" class="btn btn-success">Update Curriculum</button>
+                                    <button type="button" class="btn btn-info" data-toggle = "modal" data-target ="#modalNewSubject">Add Subject</button>
+                                    <button type="button" class="btn btn-success" data-toggle = "modal" data-target = "#modalUpdateCurriculum">Update Curriculum</button>
                                     
                                 </div>
                                 
