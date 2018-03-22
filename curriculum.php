@@ -111,7 +111,7 @@
                     <li><a href="#" class="waves-effect"><i data-icon=")" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">Reports<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="reports_subj_offer.php">Subject Offerings</a></li>
-                            <li><a href="reports_fac_sched.php">Faculty Schedule</a></li>
+                            <li><a href="reports_fac_sched.php">Teaching Assignments</a></li>
                             <li><a href="reports_room_sched.php">Room Schedules</a></li>
                         </ul>
                     </li>
@@ -142,7 +142,19 @@
                                 Filter Curriculum Details
 
                             </div> -->
-                             <h2>Filter Curriculum Details</h2>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h2>Search Filter</h2>
+                                </div>
+                                <div class="col-md-2">
+                                <center><label class="control-label">Curriculum to use:</label></center>
+                                    <select class="form-control" id="curr_year">
+                                        <option>2018</option>
+                                        <option>2011</option>
+                                    </select>
+                                </div>
+                            </div>
+                             <br>
                              <div  class="col-md-12" style="background-color: gray; height: 3px; margin-top: -5px;">
 
                             </div>
@@ -218,36 +230,17 @@
                                                     <label class="control-label">Course Title:</label>
                                                     <input class="form-control" type="text" name="fac_sname" id="fac_sname" required>
                                             </div>
-                                            <div class="form-group col-md-2">
+                                            <div class="form-group col-md-4">
                                                     <label class="control-label">Credits:</label>
                                                     <input class="form-control" type="text" name="fac_fname" id="fac_fname" required>
                                             </div>
-                                            <div class="form-group col-md-2">
+                                            <div class="form-group col-md-4">
                                                     <label class="control-label">Lecture Hours:</label>
                                                     <input class="form-control" type="text" name="fac_mname" id="fac_mname">
                                             </div>
-                                            <div class="form-group col-md-2">
+                                            <div class="form-group col-md-4">
                                                     <label class="control-label">Lab Hours:</label>
                                                     <input class="form-control" type="text" name="fac_email" id="fac_email" required>
-                                            </div>
-                                            <div class="form-group col-md-3">
-                                                    <label class="control-label">Year Level:</label>
-                                                    <select class="form-control">
-                                                        <option>--YEAR LEVEL--</option>
-                                                        <option>1st</option>
-                                                        <option>2nd</option>
-                                                        <option>3rd</option>
-                                                        <option>4th</option>
-                                                    </select>
-                                            </div>
-                                            <div class="form-group col-md-3">
-                                                    <label class="control-label">Year Level:</label>
-                                                    <select class="form-control">
-                                                        <option>--SEMESTER--</option>
-                                                        <option>1st Semester</option>
-                                                        <option>2nd Semester</option>
-                                                        <option>Summer</option>
-                                                    </select>
                                             </div>
                                             <div class="form-group col-md-6">
                                                     <label class="control-label">Requisites/Prerequisites</label>
@@ -262,8 +255,85 @@
                                                     <label class="control-label">Selected:</label>
                                                     <input type="text" class="form-control">
                                             </div>
-
                                         </div>
+                                        <!-- <div class="col-md-12">
+                                             <table class="table color-table inverse-table table-striped table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Course Code</th>
+                                                        <th>Course Title</th>
+                                                        <th>Units</th>
+                                                        <th>Lecture Hours</th>
+                                                        <th>Lab Hours</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                    </tr> <tr>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                        <td>SAMPLE</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            
+                                        </div> -->
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                             <button type="button" class="btn btn-success waves-effect text-left">Add Subject</button>
@@ -284,27 +354,29 @@
 
                                         </div>
                                         <div class="modal-body">
-                                            <div class="form-group col-md-6">
-                                                    <label class="control-label">Course Code:</label>
-                                                    <input class="form-control" type="text" name="fac_id" id="fac_id">
+                                            <div class="col-md-12">
+                                                <label class="control-label">For curriculum:</label>
+                                                <select class="form-control">
+                                                       <option>2011</option>
+                                                       <option>2018</option>
+                                                    </select>
+                                                
                                             </div>
-                                            <div class="form-group col-md-6">
-                                                    <label class="control-label">Course Title:</label>
-                                                    <input class="form-control" type="text" name="fac_sname" id="fac_sname" required>
+                                            <div class="col-md-6">
+                                                    <label class="control-label">Requisites/Prerequisites</label>
+                                                    <select class="form-control">
+                                                       <option>Sample</option>
+                                                       <option>Sample</option>
+                                                       <option>Sample</option>
+                                                       <option>Sample</option>
+                                                    </select>
                                             </div>
-                                            <div class="form-group col-md-2">
-                                                    <label class="control-label">Credits:</label>
-                                                    <input class="form-control" type="text" name="fac_fname" id="fac_fname" required>
+                                            <div class="col-md-6">
+                                                    <label class="control-label">Selected:</label>
+                                                    <input type="text" class="form-control">
                                             </div>
-                                            <div class="form-group col-md-2">
-                                                    <label class="control-label">Lecture Hours:</label>
-                                                    <input class="form-control" type="text" name="fac_mname" id="fac_mname">
-                                            </div>
-                                            <div class="form-group col-md-2">
-                                                    <label class="control-label">Lab Hours:</label>
-                                                    <input class="form-control" type="text" name="fac_email" id="fac_email" required>
-                                            </div>
-                                            <div class="form-group col-md-3">
+                                            <div class="col-md-12">
+                                                <div class="form-group col-md-6">
                                                     <label class="control-label">Year Level:</label>
                                                     <select class="form-control">
                                                         <option>--YEAR LEVEL--</option>
@@ -314,8 +386,8 @@
                                                         <option>4th</option>
                                                     </select>
                                             </div>
-                                            <div class="form-group col-md-3">
-                                                    <label class="control-label">Year Level:</label>
+                                            <div class="form-group col-md-6">
+                                                    <label class="control-label">Semester:</label>
                                                     <select class="form-control">
                                                         <option>--SEMESTER--</option>
                                                         <option>1st Semester</option>
@@ -323,20 +395,8 @@
                                                         <option>Summer</option>
                                                     </select>
                                             </div>
-                                            <div class="form-group col-md-6">
-                                                    <label class="control-label">Requisites/Prerequisites</label>
-                                                    <select class="form-control">
-                                                       <option>Sample</option>
-                                                       <option>Sample</option>
-                                                       <option>Sample</option>
-                                                       <option>Sample</option>
-                                                    </select>
+                                                
                                             </div>
-                                            <div class="form-group col-md-6">
-                                                    <label class="control-label">Selected:</label>
-                                                    <input type="text" class="form-control">
-                                            </div>
-
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

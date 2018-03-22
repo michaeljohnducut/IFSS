@@ -101,7 +101,7 @@
                     <li><a href="#" class="waves-effect active"><i data-icon=")" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">Reports<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="reports_subj_offer.php">Subject Offerings</a></li>
-                            <li><a href="reports_fac_sched.php">Faculty Schedule</a></li>
+                            <li><a href="reports_fac_sched.php">Teaching Assignments</a></li>
                             <li><a href="reports_room_sched.php">Room Schedules</a></li>
                         </ul>
                     </li>
@@ -141,7 +141,214 @@
                             <br>
 
 
+
                         </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label class="control-label">Select A.Y.</label>
+                                <select class="form-control">
+                                    <option>2013</option>
+                                    <option>2014</option>
+                                    <option>2015</option>
+                                    <option selected>2016</option>
+                                    <option>2017</option>
+                                    <option>2018</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <label class="control-label">Select Semester</label>
+                                <select class="form-control">
+                                    <option>1st</option>
+                                    <option>2nd</option>
+                                </select>  
+                            </div>
+                            <div class="col-md-8" style="text-align: right;">
+                                <br>
+                                <button type="button" class="btn btn-info" style="margin-top: 10px;">Print Subject Offering</button>
+                                
+                            </div>
+                        </div>
+                        <br><br>
+                        <div  class="col-md-12" style="background-color: gray; height: 3px; margin-top: -5px;">
+
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h3><u><b>1st Year</b></u></h3>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3" style="margin-left: 10px;">  
+                                <h4>BSIT 1-1</h4>
+                            </div>    
+                        </div>
+
+                        <div class="row">
+                            <table class="table color-table inverse-table table-striped table-bordered table-condensed" id="account-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 100px;">Course Code</th>
+                                        <th style="width: 400px;">Course Title</th>
+                                        <th>Units</th>
+                                        <th>Hours</th>
+                                        <th>Day</th>
+                                        <th>Time</th>
+                                        <th>Room</th>
+                                        <th>Remarks</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>ENG1023</td>
+                                        <td>Writing in Discipline</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>FR</td>
+                                        <td>1:30PM - 4:30PM</td>
+                                        <td>E408</td>
+                                        <td></td>
+                                    </tr>
+
+                                     <tr>
+                                        <td>INTE1023</td>
+                                        <td>Sample Subj</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>TH/TH</td>
+                                        <td>7:30-10:30 / 10:30 - 12:30</td>
+                                        <td>S511/E410</td>
+                                        <td>w/ Lab</td>
+                                    </tr>
+
+                                     <tr>
+                                        <td>ENG1023</td>
+                                        <td>Writing in Discipline</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>FR</td>
+                                        <td>1:30PM - 4:30PM</td>
+                                        <td>E408</td>
+                                        <td></td>
+                                    </tr>
+
+                                     <tr>
+                                        <td>ENG1023</td>
+                                        <td>Writing in Discipline</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>FR</td>
+                                        <td>1:30PM - 4:30PM</td>
+                                        <td>E408</td>
+                                        <td></td>
+                                    </tr>
+
+                                     <tr>
+                                        <td>ENG1023</td>
+                                        <td>Writing in Discipline</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>FR</td>
+                                        <td>1:30PM - 4:30PM</td>
+                                        <td>E408</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                                     
+                                </table>
+                            
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h3><u><b>2nd Year</b></u></h3>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3" style="margin-left: 10px;">  
+                                <h4>BSIT 2-4</h4>
+                            </div>    
+                        </div>
+
+                        <div class="row">
+                            <table class="table color-table inverse-table table-striped table-bordered table-condensed" id="account-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 100px;">Course Code</th>
+                                        <th style="width: 400px;">Course Title</th>
+                                        <th>Units</th>
+                                        <th>Hours</th>
+                                        <th>Day</th>
+                                        <th>Time</th>
+                                        <th>Room</th>
+                                        <th>Remarks</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>ENG1023</td>
+                                        <td>Writing in Discipline</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>FR</td>
+                                        <td>1:30PM - 4:30PM</td>
+                                        <td>E408</td>
+                                        <td></td>
+                                    </tr>
+
+                                     <tr>
+                                        <td>INTE1023</td>
+                                        <td>Sample Subj</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>TH/TH</td>
+                                        <td>7:30-10:30 / 10:30 - 12:30</td>
+                                        <td>S511/E410</td>
+                                        <td>w/ Lab</td>
+                                    </tr>
+
+                                     <tr>
+                                        <td>ENG1023</td>
+                                        <td>Writing in Discipline</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>FR</td>
+                                        <td>1:30PM - 4:30PM</td>
+                                        <td>E408</td>
+                                        <td></td>
+                                    </tr>
+
+                                     <tr>
+                                        <td>ENG1023</td>
+                                        <td>Writing in Discipline</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>FR</td>
+                                        <td>1:30PM - 4:30PM</td>
+                                        <td>E408</td>
+                                        <td></td>
+                                    </tr>
+
+                                     <tr>
+                                        <td>ENG1023</td>
+                                        <td>Writing in Discipline</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>FR</td>
+                                        <td>1:30PM - 4:30PM</td>
+                                        <td>E408</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                                     
+                                </table>
+                            
+                        </div>
+
                       </div>
                   </div>
               

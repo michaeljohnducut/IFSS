@@ -101,7 +101,7 @@
                     <li><a href="#" class="waves-effect"><i data-icon=")" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">Reports<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="reports_subj_offer.php">Subject Offerings</a></li>
-                            <li><a href="reports_fac_sched.php">Faculty Schedule</a></li>
+                            <li><a href="reports_fac_sched.php">Teaching Assignments</a></li>
                             <li><a href="reports_room_sched.php">Room Schedules</a></li>
                         </ul>
                     </li>

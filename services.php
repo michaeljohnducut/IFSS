@@ -101,7 +101,7 @@
                     <li><a href="#" class="waves-effect"><i data-icon=")" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">Reports<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="reports_subj_offer.php">Subject Offerings</a></li>
-                            <li><a href="reports_fac_sched.php">Faculty Schedule</a></li>
+                            <li><a href="reports_fac_sched.php">Teaching Assignments</a></li>
                             <li><a href="reports_room_sched.php">Room Schedules</a></li>
                         </ul>
                     </li>
@@ -180,7 +180,12 @@
                                             <a href="#" class="input-group-addon btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a> 
                                         </div>
                                     </div>
-                                </div>
+                            </div>
+                            <div class="col-md-3" style="text-align: center;">
+                                <br>
+                                <button type="button" class="btn btn-info" style="margin-top: 10px;">Encode Manually</button>
+                                
+                            </div>
                         </div>
                         <br><br>
                         <div  class="col-md-12" style="background-color: gray; height: 3px; margin-top: -5px;">
